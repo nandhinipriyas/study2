@@ -16,7 +16,7 @@ for(int i=str.length()-1;i>=0;i--)
 //str1=new StringBuffer(str).reverse().toString();
 	str=str.replaceAll("[AEIOU]","");
 		
-	str=str.replaceAll("[aeious]","");
+	str=str.replaceAll("[aeiou]","");
 		
 		System.out.println(""+str);
 		
